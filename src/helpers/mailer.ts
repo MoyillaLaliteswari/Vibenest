@@ -41,7 +41,7 @@ export default async function sendEmail({ email, emailType, userId }: { email: s
     )}`;
 
     const mailOptions = {
-      from: "lallimoyilla@gmail.com",
+      from: "tarun79767@gmail.com",
       to: email,
       subject: emailType === "VERIFY" ? "Verify your email" : "Reset your password",
       html: `
