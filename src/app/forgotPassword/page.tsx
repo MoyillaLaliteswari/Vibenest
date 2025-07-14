@@ -7,6 +7,7 @@ export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  //changes made to the code to handle forgot password functionality
 
   const onResetPassword = async () => {
     setMessage("");
