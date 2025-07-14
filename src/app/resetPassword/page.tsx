@@ -48,7 +48,7 @@ export default function ResetPaswordPage() {
   }, [token]);
 
   const onResetPassword = () => {
-    router.push(`/newpassword?email=${encodeURIComponent(email)}`);
+    router.push(`/newPassword?email=${encodeURIComponent(email)}`);
   };
 
   const onRetry = () => {

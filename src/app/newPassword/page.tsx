@@ -11,6 +11,7 @@ function NewPasswordPage() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [email, setEmail] = useState("");
   const [equal, setEqual] = useState(true);
+  // Retrieve email query parameter
 
   useEffect(() => {
     const emailId = searchParams.get("email"); // Retrieve email query parameter

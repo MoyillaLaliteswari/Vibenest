@@ -120,7 +120,7 @@ export default function LoginPage() {
         </p>
 
         <p className="mt-2 text-sm text-center text-gray-400">
-          <Link href="/forgotpassword">
+          <Link href="/forgotPassword">
             <span className="text-white font-semibold cursor-pointer hover:underline">
               Forgot Password?
             </span>
