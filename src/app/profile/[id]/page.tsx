@@ -67,6 +67,7 @@ const UserProfile = () => {
     fetchMyId();
   }, []);
 
+  //changed the mongo URI in .env file
   useEffect(() => {
     if (!userId || !myId) return;
 
